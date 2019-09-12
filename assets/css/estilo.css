@@ -120,22 +120,22 @@ img{
 /* MAIN */
 .abrevia{
     background-color: #2E302E;
-    height: 350px;
+    height: 400px;
 }
 .abrevia2{
     background-color: rgb(126, 126, 126);
-    height: 350px;
+    height: 400px;
 }
 .abrevia__titulo{
     color: white;
     font-size: 26px;
-    padding-top: 90px;
+    padding-top: 110px;
     margin-left: 30px;
 }
 .abrevia__titulo2{
     color: white;
     font-size: 26px;
-    padding-top: 90px;
+    padding-top: 110px;
     margin-right: 30px;
     float: right;
 }
@@ -149,7 +149,7 @@ img{
 
 .abrevia__gif{
     max-width: 400px;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-right: 30px;
     border-radius: 10px;
     float: right;
@@ -157,17 +157,17 @@ img{
 }
 .abrevia__gif2{
     max-width: 400px;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 30px;
     border-radius: 10px;
 }
 
 @media(max-width: 1050px) {
     .abrevia{
-        height: 650px;
+        height: 700px;
     }
     .abrevia2{
-        height: 650px;
+        height: 700px;
     }
     .box{
         display: flex;
@@ -201,17 +201,17 @@ img{
 
 @media(max-width: 650px) {
     .abrevia{
-        height: 500px;
+        height: 520px;
     }
     .abrevia2{
-        height: 500px;
+        height: 520px;
     }
     .abrevia__titulo{
-        padding-top: 40px;
+        padding-top: 60px;
         font-size: 20px;
     }
     .abrevia__titulo2{
-        padding-top: 40px;
+        padding-top: 60px;
         font-size: 20px;
     }
     .abrevia__gif{
@@ -310,7 +310,7 @@ img{
 .rodape__emmet-titulo{
     color: white;
     text-shadow: 0.5px 0.5px 1px black;
-    font-size: 22px;
+    font-size: 26px;
     text-align: left;
     padding: 50px 0;
     margin-left: 20px;
