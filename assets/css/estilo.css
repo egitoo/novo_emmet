@@ -14,7 +14,7 @@
 .cabecalho{
     background-color: #4C4C4C;
     background-image: linear-gradient(black, #4C4C4C);
-    padding: 20px;
+    padding: 40px;
 }
 
 .utils{
@@ -233,11 +233,16 @@ img{
     padding: 90px;  
 }
 .ide__titulo{
-    font-size: 26px;
+    font-size: 36px;
     color: white;
     text-align: center;
     margin-top: -20px;
     justify-content: center;
+}
+@media(max-width: 600px) {
+    .ide__titulo{
+    font-size: 26px;
+    }
 }
 .ide__imagens{
     width: 105px;
@@ -263,8 +268,8 @@ img{
 
 @media(max-width: 600px) {
     .ide__card{
-        width: 80px;
-        height: 115px;
+        width: 70px;
+        height: 105px;
         padding: 0;
         padding-top: 12px;
     }
@@ -292,13 +297,14 @@ img{
   @media(max-width: 600px) {
       .title__card{
           margin-top: 10px;
-          font-size: 14px;
+          font-size: 12px;
       }
   }
 
 /* RODAPÉ */
 .rodape{
     background-color: black;
+    padding: 50px 0;
 }
 
 .rodape__box{
@@ -311,8 +317,8 @@ img{
     color: white;
     text-shadow: 0.5px 0.5px 1px black;
     font-size: 26px;
+    font-weight: bold;
     text-align: left;
-    padding: 50px 0;
     margin-left: 20px;
 }
 
@@ -329,10 +335,6 @@ img{
     color: lightgray;
 }
 
-.rodape__redes{
-    margin: 50px 15px;
-}
-
 .rodape__imagens{
     padding: 3px;
     width: 20%;
@@ -345,4 +347,37 @@ img{
     text-decoration: none;
     display: block;
     padding: 5px;
+}
+
+.rodape__blog{
+    font-size: 14px;
+    color: gray;
+}
+@media(max-width: 700px){
+    .rodape__blog{
+        display: none;
+    }
+}
+.rodape__blog--titulo{
+    margin-bottom: 20px;
+}
+.rodape__blog--data{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-style: italic; 
+}
+.rodape__blog--data > a{
+    text-decoration: none;
+    color: gray
+}
+.rodape__blog--data > a:hover{
+    color: white;
+}
+.rodape__blog--forum > a{
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+}
+.rodape__blog--forum > a:hover{
+    color: white;
 }
