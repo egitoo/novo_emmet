@@ -14,7 +14,7 @@
 .cabecalho{
     background-color: #4C4C4C;
     background-image: linear-gradient(black, #4C4C4C);
-    padding: 40px;
+    padding: 40px 20px;
 }
 
 .utils{
@@ -237,11 +237,10 @@ img{
     color: white;
     text-align: center;
     margin-top: -20px;
-    justify-content: center;
 }
 @media(max-width: 600px) {
     .ide__titulo{
-    font-size: 26px;
+    font-size: 20px;
     }
 }
 .ide__imagens{
